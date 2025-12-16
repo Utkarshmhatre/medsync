@@ -1,0 +1,15 @@
+# MedSync RFID Server Requirements
+# Python 3.8+ required
+
+# Serial communication for Arduino RFID reader
+pyserial>=3.5
+
+# WebSocket server for real-time communication
+websockets>=12.0
+
+# HTTP REST API server
+aiohttp>=3.9.0
+aiohttp-cors>=0.7.0
+
+# Optional: For the GUI version
+# tkinter is typically included with Python
